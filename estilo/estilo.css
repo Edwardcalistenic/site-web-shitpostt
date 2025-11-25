@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+:root {
+ --primeira-cor: rgb(37, 37, 37) ;
+ --segunda-cor: beige ;
+ --terceira-cor:  rgb(167, 165, 165);
+ --quarta-cor: rgb(27, 25, 25) ;
+ --quinta-cor:  rgb(15, 15, 15);
+ --sexta-cor: azure ;
+
+ --fonte-primeiro: "Figtree" , sans-serif ;
+ --fonte-segundo: "Quicksand" , sans-serif ;
+}
+
+
+body {
+    background-color: rgb(37, 37, 37) ;
+    color: beige;
+}
+
+.container {
+  padding: 5% 15% ;
+  display: flex;
+  flex-direction: row; 
+  justify-content: center;
+  gap: 82%;
+}
+
+.container__pesquisa {
+  background-color: white;
+  border: 1px solid red;
+  border-radius: 24px;
+  padding: 1em;
+  display: block;
+  margin: 0 auto;
+}
+
+.container__imagem2 {
+  background-image: url(../img3/butecinha.jpg);
+  background-size: cover;
+  background-repeat: no-repeat; 
+  height: 300px; 
+  width: 100%;
+}
+
+.container__imagem {
+  display: block;
+  margin: 0 auto;
+  padding: 1em;
+}
+
+.container__titulo {
+  text-align: center;
+  font-family: var(--fonte-primeiro);
+  background-color: rgb(97, 95, 95);
+  font-size: 2.5em;
+  padding: 1px;
+}
+
+.container__texto {
+  text-align: center;
+  font-family: var(--fonte-segundo);
+}
+
+.container__butao {
+  display: block;
+  margin: 0 auto;
+  background-color: rgb(15, 15, 15);
+  color: azure;
+  text-decoration: none;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 6px;
+}
+
+.apresentaçao__titulo {
+  font-family: var(--fonte-primeiro);
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  background-color: rgb(68, 68, 68);
+  font-size: 1.5em;
+}
+ 
+.apresentaçao__imagem {
+  padding: 2em;
+  width: 15em;
+  height: 10em;
+  display: block;
+  margin: 0 auto;
+}
+
+.apresentaçao__lista__item {
+  list-style-type: none;
+}
+
+.cabeçalho__titulo {
+  font-family: var(--fonte-primeiro);
+  text-align: center;
+  background-color: rgb(68, 68, 68);
+  font-size: 1.5em;
+}
+
+.cabeçalho__imagem {
+  display: block;
+  margin: 0 auto;
+}
+
+.cabeçalho__texto {
+  text-align: center;
+  font-family: var(--fonte-primeiro);
+}
+
+.pagina__inferior__titulo {
+  text-align: left;
+  font-family: var(--fonte-segundo);
+}
+
+.pagina__inferior__texto {
+  text-align: left;
+  font-family: var(--fonte-primeiro);
+}
+
+.container__sobre__titulo {
+  text-align: center;
+  font-family: var(--fonte-primeiro);
+  background-color: rgb(97, 95, 95);
+  font-size: 2.5em;
+  padding: 1px;
+}
+
+.container__sobre__texto {
+  text-align: center;
+  font-family: var(--fonte-segundo);
+}
+
+.container__sobre__imagem {
+  display: block;
+  margin: 0 auto;
+}
+
+.cabeçalho__sobre__texto {
+  text-align: left;
+  font-family: var(--fonte-segundo);
+}
+
+.cabeçalho__sobre__imagem {
+  width: 20em;
+}
+
+.container__titulo__video {
+  text-align: center;
+  font-family: var(--fonte-primeiro);
+  background-color: rgb(97, 95, 95);
+  font-size: 1.5em;
+  padding: 1px;
+}
+
+.container__imagem__video {
+  display: block;
+  margin: 0 auto;
+  width: 15em;
+  height: 15em;
+}
+
+.rodape {
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(167, 165, 165);
+  color: rgb(27, 25, 25);
+  padding: 10px;
+  font-weight: 400;
+  font-size: 1.5em;
+  font-family: var(--fonte-segundo);
+}
+
+.rodape__link {
+  background-color: rgb(15, 15, 15);
+  color: azure;
+  border-radius: 2px;
+  text-decoration: none;
+  padding: 3px;
+  
+}
+
+.rodape__link2 {
+  background-color: rgb(15, 15, 15);
+  color: azure;
+  border-radius: 2px;
+  text-decoration: none;
+  padding: 3px;
+}
+
+.rodape__sobre {
+  text-align: center;
+  background-color: rgb(167, 165, 165);
+  color: rgb(27, 25, 25);
+  padding: 10px;
+  font-weight: 400;
+  font-size: 1.5em;
+  font-family: var(--fonte-segundo);
+}
+
+.rodape__link__sobre {
+  background-color: rgb(15, 15, 15);
+  color: azure;
+  border-radius: 2px;
+  text-decoration: none;
+  padding: 3px;
+}
+

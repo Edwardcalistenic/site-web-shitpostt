@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+:root {
+ --primeira-cor: rgb(37, 37, 37) ;
+ --segunda-cor: beige ;
+ --terceira-cor:  rgb(167, 165, 165);
+ --quarta-cor: rgb(27, 25, 25) ;
+ --quinta-cor:  rgb(15, 15, 15);
+ --sexta-cor: azure ;
+
+ --fonte-primeiro: "Figtree" , sans-serif ;
+ --fonte-segundo: "Quicksand" , sans-serif ;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+    background-color: rgb(37, 37, 37) ;
+    color: beige;
+}
+
+span {
+  font-size: x-large;
+  font-family: var(--fonte-primeiro);
+  background-color: var(--terceira-cor);
+}
+
+img {
+  box-shadow: 0 1px 2px #0003;
+  width: 100%;
+  width: 15em;
+  height: 16em;
+}
+
+.swiper {
+  height: 500px;
+}
+
+.swiper-slide {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cabeçalho__principal {
+  position: sticky;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  background-color: rgb(167, 165, 165);
+  padding: 20px;
+  font-family: var(--fonte-segundo);
+  font-size: 1.5em;
+}
+
+.cabeçalho__menu__link {
+  font-family: var(--fonte-segundo);
+  background-color: rgb(15, 15, 15);
+  color: azure;
+  text-decoration: none;
+  margin-right: 20%;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 6px;
+}
+
+.cabeçalho__menu__link2 {
+  font-family: var(--fonte-segundo);
+  background-color: rgb(15, 15, 15);
+  color: azure;
+  text-decoration: none;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 6px;
+}
+
+.apresentaçao__principal__pesquisa {
+  border: 3px solid black;
+  border-radius: 24px;
+  padding: 1.2em;
+  display: block;
+  margin: 0 auto; 
+  width: 50%;
+}
+
+.apresentaçao__principal__titulo {
+  font-family: var(--fonte-primeiro);
+  padding: 1px;
+}
+
+.rodape__sobre {
+  text-align: center;
+  background-color: rgb(167, 165, 165);
+  color: rgb(27, 25, 25);
+  padding: 10px;
+  font-weight: 400;
+  font-size: 1.5em;
+  font-family: var(--fonte-segundo);
+}
+
+.rodape__link__sobre {
+  background-color: rgb(15, 15, 15);
+  color: azure;
+  border-radius: 2px;
+  text-decoration: none;
+  padding: 3px;
+}
+
+
+@media screen and (max-width: 500px) {
+
+.cabeçalho__menu__link {
+ font-family: var(--fonte-segundo);
+  background-color: rgb(15, 15, 15);
+  color: azure;
+  text-decoration: none;
+  margin-right: 20%;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 6px;
+}
+
+.cabeçalho__menu__link2 {
+  font-family: var(--fonte-segundo);
+  background-color: rgb(15, 15, 15);
+  color: azure;
+  text-decoration: none;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 6px;
+}
+
+.swiper {
+      height: 270px;
+}
+
+.hr {
+  width: 100%;
+  border: 1px solid beige;
+  margin: 20px 0;
+}
+
+}
+
+@media screen and (max-width:450px) {
+    .swiper {
+      height: 270px;
+    }
+}
+
