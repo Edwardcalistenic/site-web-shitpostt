@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,11 +9,76 @@
     <link rel="stylesheet" href="./estilo/estilo.css">
 </head>
 <body>
-   <h1 class="container__titulo__video">DESENVOLVIMENTO...</h1>
-       <img src="./img3/escrevendo.jpg" alt="escrevendo" class="container__imagem__video">
+   <h1 class="container__titulo__video">Vídeos</h1>
+       <div class="carousel-wrapper">
+            <button class="carousel-arrow left" id="arrowLeft">❮</button>
 
-  <footer class="rodape__sobre">
-          <a class="rodape__link__sobre" href="index.html">Início</a>
-  </footer>
+
+       <div class="carousel-container">
+
+            <h2 class="carousel-title">Vídeos</h2>
+            <p class="carousel-title">os melhores vídeos para dar umas boas risadas</p>
+
+               <div class="carousel" id="videoCarousel">
+
+                    <div class="video-card" onclick="window.location.href='https://youtu.be/VetgfBagJ_U'">
+                         <div class="video-gradient-border">
+                              <div class="video-content">
+                                   <div class="video-title">Vídeo 1</div>
+                                        <img src="./img3/tonyspark.jpg" class="video-thumb">
+                                             <div class="video-play">
+                                                  <img src="https://img.icons8.com/ios-filled/100/ffffff/play--v1.png">
+                                             </div>
+                             </div>
+                         </div>
+                    </div>
+
+        
+        <div class="video-card" onclick="window.location.href='https://youtu.be/KTK63t7GX4w?si=SC2MGYG0oWh8RWaK'">
+             <div class="video-gradient-border">
+                  <div class="video-content">
+                       <div class="video-title">Vídeo 2</div>
+                            <img src="./img3/nuossa.jpg" class="video-thumb">
+                                 <div class="video-play">
+                                      <img src="https://img.icons8.com/ios-filled/100/ffffff/play--v1.png">
+                                 </div>
+                  </div>
+            </div>
+        </div>
+
+        
+        <div class="video-card" onclick="window.location.href='https://youtu.be/mSwVw3ZaabI?si=s4z6n4d4IqI3d4yB'">
+             <div class="video-gradient-border">
+                  <div class="video-content">
+                       <div class="video-title">Vídeo 3</div>
+                            <img src="./img3/boopdog.jpg" class="video-thumb">
+                                 <div class="video-play">
+                                      <img src="https://img.icons8.com/ios-filled/100/ffffff/play--v1.png">
+                                 </div>
+                 </div>
+            </div>
+        </div>
+
+    </div>
+    <button class="carousel-arrow right" id="arrowRight">❯</button>
+</div>
+
+<footer class="rodape__sobre"> 
+        <p class="rodape__sobre__texto">Para apoiar este site, siga no:</p>
+           <a class="rodape__link__sobre" href="https://github.com/Edwardcalistenic">
+              <img class="rodape__sobre__img" src="./img3/github.png" alt="logo do github">
+              Github
+          </a>
+                 
+          <a class="rodape__link__sobre" href="https://www.instagram.com/swx.eduardo/">
+             <img class="rodape__sobre__img" src="./img3/instagram.png" alt="logo do instagram">
+             Instagram
+         </a>
+
+         <a class="rodape__link__sobre3" href="index.html">Voltar ao início</a>
+
+</footer>
+
+  <script src="./js/carrosel.js"></script>
 </body>
 </html>

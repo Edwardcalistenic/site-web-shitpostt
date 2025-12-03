@@ -101,6 +101,11 @@ img {
   font-family: var(--fonte-segundo);
 }
 
+.rodape__sobre__texto {
+  font-family: var(--fonte-segundo);
+  font-size: 1.3em;
+}
+
 .rodape__link__sobre {
   font-family: var(--fonte-segundo);
   background-color: rgb(15, 15, 15);
@@ -119,6 +124,13 @@ img {
   padding: 1px;
 }
 
+
+.rodape__sobre__img {
+  width: 28px !important;
+  height: 28px !important;
+  max-width: none !important;
+  box-shadow: none !important;
+}
 
 @media screen and (max-width: 500px) {
  
