@@ -50,7 +50,6 @@ img {
 }
 
 .cabeçalho__principal {
-  background-color: var(--terceira-cor);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -58,6 +57,9 @@ img {
   font-size: 1.2em;
   flex-wrap: wrap; 
   gap: 10px;
+  background: linear-gradient(120deg, #a8a7a8ef, #686767, #2d2e2e, #535353);
+  background-size: 300% 300%;
+  animation: border-animation 3s ease infinite;
 }
 
 .apresentacao-container {
@@ -76,6 +78,7 @@ img {
   padding: 8px 12px;
   border-radius: 6px;
 }
+
 .apresentaçao-input {
   border: 3px solid black;
   border-radius: 24px;
@@ -93,8 +96,8 @@ img {
 
 .rodape__sobre {
   text-align: center;
-  background-color: rgb(167, 165, 165);
-  color: rgb(27, 25, 25);
+  background-color: rgb(15, 15, 15);
+  color:rgb(250, 246, 246);
   padding: 10px;
   font-weight: 400;
   font-size: 1.3em;
@@ -123,7 +126,6 @@ img {
   text-decoration: none;
   padding: 1px;
 }
-
 
 .rodape__sobre__img {
   width: 28px !important;
@@ -172,4 +174,3 @@ img {
       height: 270px;
     }
 }
-
