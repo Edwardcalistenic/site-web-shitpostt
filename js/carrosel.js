@@ -1,4 +1,4 @@
- const carousel = document.getElementById("videoCarousel");
+  const carousel = document.getElementById("videoCarousel");
 
 let startX;
 let scrollLeft;
@@ -31,6 +31,25 @@ arrowRight.addEventListener("click", () => {
 arrowLeft.addEventListener("click", () => {
     carousel.scrollBy({
         left: -scrollAmount,
+        behavior: "smooth"
+    });
+});
+
+
+const carousel2 = document.getElementById("videoCarousel2");
+const arrowLeft2 = document.getElementById("arrowLeft2");
+const arrowRight2 = document.getElementById("arrowRight2");
+
+arrowLeft2.addEventListener("click", () => {
+    carousel2.scrollBy({
+        left: -300,
+        behavior: "smooth"
+    });
+});
+
+arrowRight2.addEventListener("click", () => {
+    carousel2.scrollBy({
+        left: 300,
         behavior: "smooth"
     });
 });

@@ -191,7 +191,6 @@ body {
   width: 100%;
 }
 
-/* SETAS */
 .carousel-arrow {
   position: absolute;
   top: 50%;
@@ -290,6 +289,12 @@ body {
   object-fit: cover;
   display: block;
   transition: transform 0.4s ease;
+}
+
+.container--text {
+  text-align: center;
+  font-family: var(--fonte-segundo);
+  padding: 10px;
 }
 
 .rodape {

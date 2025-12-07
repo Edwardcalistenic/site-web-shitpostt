@@ -57,7 +57,7 @@ img {
   font-size: 1.2em;
   flex-wrap: wrap; 
   gap: 10px;
-  background: linear-gradient(120deg, #a8a7a8ef, #686767, #2d2e2e, #535353);
+  background: linear-gradient(120deg,#a8a7a8ef, #686767, #2d2e2e, #535353);
   background-size: 300% 300%;
   animation: border-animation 3s ease infinite;
 }
@@ -92,6 +92,164 @@ img {
 .apresentaçao__principal__titulo {
   font-family: var(--fonte-primeiro);
   padding: 1px;
+}
+
+.container--gif {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  text-align: center;
+}
+
+.container--titulo {
+  width: 100%;
+  text-align: left;   
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.card {
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+  border-radius: 10px;
+  perspective: 600px;
+}
+
+.card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.1s ease-out;
+  pointer-events: none;
+}
+
+.container--texto {
+  font-family: var(--fonte-segundo);
+  font-size: 1.5em;
+  padding: 2em;
+  color: bisque grey;
+}
+
+.carousel-wrapper {
+  position: relative;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  margin: 20px 0;
+}
+
+.carousel-container {
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  width: 100%;
+}
+
+.carousel-container::-webkit-scrollbar {
+  display: none;
+}
+
+.carousel {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+}
+
+.carousel-title {
+  font-size: 24px;
+  text-align: center;
+  margin-top: 30px;
+  color: white;
+  font-family: var(--fonte-primeiro);
+}
+
+.carousel-arrow {
+  position: absolute;
+  z-index: 10;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 36px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: white;
+  transition: 0.3s;
+  padding: 10px;
+  user-select: none;
+}
+
+.carousel-arrow:hover {
+  transform: translateY(-50%) scale(1.2);
+}
+
+.carousel-arrow.left {
+  left: 0;
+}
+
+.carousel-arrow.right {
+  right: 0;
+}
+
+.video-card {
+  min-width: 220px;
+  height: 320px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.video-card:hover {
+  transform: scale(1.05);
+}
+
+.video-gradient-border {
+  padding: 3px;
+  background: linear-gradient(45deg, #ff0055, #5500ff, #00eaff);
+  border-radius: 15px;
+  height: 100%;
+}
+
+.video-content {
+  background: #111;
+  border-radius: 12px;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+}
+
+.video-title {
+  color: white;
+  font-size: 18px;
+  padding: 8px 0;
+}
+
+.video-thumb {
+  width: 100%;
+  height: 70%;
+  object-fit: cover;
+   border-bottom: 2px solid #000;
+}
+
+.video-play {
+  position: absolute;
+  bottom: 15px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.video-play img {
+  width: 50px;
+  opacity: 0.8;
+}
+
+.container--text{
+  font-family: var(--fonte-segundo);
+  font-size: 1.2em;
+  color: beige;
+  text-align: center;
 }
 
 .rodape__sobre {
