@@ -1,7 +1,8 @@
 function mudarNome(){
      let nome = "Esquisito!" 
      document.getElementById("Bem-vindo").textContent = "Bem vindo, " + nome
-    }
+}
+
 /*parte do documento fotos/gif*/
 var swiper = new Swiper(".swiper", {
   cssMode:true,
@@ -15,17 +16,5 @@ var swiper = new Swiper(".swiper", {
     el: ".swiper-pagination",
   },
   keyboard:true,
-  });
-
-  
-
-
-
- 
-
-
-
-
-
-
+});
 
